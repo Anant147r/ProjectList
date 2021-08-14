@@ -1,4 +1,4 @@
-import "./App.css";
+import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Navbar from "./Components/layout/Navbar";
 import Dashboard from "./Components/dashboard/Dashboard";
@@ -6,6 +6,7 @@ import ProjectDetails from "./Components/projects/ProjectDetails";
 import SignIn from "./Components/auth/SignIn";
 import SignUp from "./Components/auth/SignUp";
 import CreateProject from "./Components/projects/CreateProject";
+import "./App.css";
 function App() {
   return (
     <BrowserRouter>
